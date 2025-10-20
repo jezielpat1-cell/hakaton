@@ -1,0 +1,37 @@
+ ⚠ Cross origin request detected from 10.64.129.240 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ⨯ ./node_modules/recharts/es6/util/ReactUtils.js:3:1
+Module not found: Can't resolve 'react-is'
+  1 | import get from 'es-toolkit/compat/get';
+  2 | import { Children } from 'react';
+> 3 | import { isFragment } from 'react-is';
+    | ^
+  4 | import { isNullish } from './DataUtils';
+  5 | export var SCALE_TYPES = ['auto', 'linear', 'pow', 'sqrt', 'log', 'identity', 'time', 'band', 'point', 'ordinal', 'quantile', 'quantize', 'utc', 'sequential', 'threshold'];
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/recharts/es6/cartesian/Bar.js
+__barrel_optimize__?names=Bar,BarChart,CartesianGrid,Cell,Legend,Pie,PieChart,ResponsiveContainer,Tooltip,XAxis,YAxis!=!./node_modules/recharts/es6/index.js
+./components/data-summary.tsx
+./components/data-narrative-app.tsx
+ ⨯ ./node_modules/recharts/es6/util/ReactUtils.js:3:1
+Module not found: Can't resolve 'react-is'
+  1 | import get from 'es-toolkit/compat/get';
+  2 | import { Children } from 'react';
+> 3 | import { isFragment } from 'react-is';
+    | ^
+  4 | import { isNullish } from './DataUtils';
+  5 | export var SCALE_TYPES = ['auto', 'linear', 'pow', 'sqrt', 'log', 'identity', 'time', 'band', 'point', 'ordinal', 'quantile', 'quantize', 'utc', 'sequential', 'threshold'];
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/recharts/es6/cartesian/Bar.js
+__barrel_optimize__?names=Bar,BarChart,CartesianGrid,Cell,Legend,Pie,PieChart,ResponsiveContainer,Tooltip,XAxis,YAxis!=!./node_modules/recharts/es6/index.js
+./components/data-summary.tsx
+./components/data-narrative-app.tsx
+^C
